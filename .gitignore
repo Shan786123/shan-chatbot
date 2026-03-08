@@ -1,0 +1,19 @@
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+```
+
+Save the file.
+
+---
+
+## Step 2 — Create a `.gitignore` file
+In your `chatbot` folder, create a new file called `.gitignore` and add:
+```
+.env
+__pycache__/
+*.pyc
+.env.local
+```
+This prevents secret files from being uploaded to GitHub.
+
+---
+
